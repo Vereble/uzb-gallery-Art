@@ -1,0 +1,315 @@
+/* import-srift-start */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Special+Elite&family=Ubuntu:wght@500&display=swap');
+/* import-sshrift-end */
+
+/* All-start */
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font:12px/15px "Helvetica Neue",Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* All-end */
+
+/* Header-start */
+.header{
+    display: flex;
+    width: auto;
+    height: 65px;
+    padding-left: 1%;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.a-h{
+  position: relative;
+  left: 45%;
+  top: 35%;
+}
+
+.p-logo{
+    font-family: 'Special Elite', cursive;
+    font-size: 250%;
+    align-self: auto;
+    position: relative;
+    top: -25%;
+    color: red;
+}
+.a-header{
+    margin-left: 25px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+.a-header:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+  
+.a-header:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  
+.a-header:hover {
+    color: red;
+    background-color: transparent;
+    border-bottom: 4px solid white;
+    transition: 165ms;
+  }
+
+/* Header-end */
+
+
+
+/* Center-start */
+.ht{
+  color: white;
+}
+
+.pt{
+  color: rgb(233, 233, 233);
+  font-size: 15px;
+}
+
+.dt{
+  margin-top: 20%;
+}
+
+
+/* Info-start */
+.inf{
+  background-color: white;
+  margin-top: 31%;
+  height: 800px;
+}
+.img-inf{
+  width:25%;
+  position: relative;
+  left: -35%;
+  top: -18%;
+}
+.h2-c{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(16, 16, 30);
+  font-size: 30px;
+  position: relative;
+  left: -20%;
+  top: -15%;
+}
+
+.dd{
+  width: 85%;
+}
+
+.p1-inf{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(16, 16, 30);
+  font-size: 20px;
+  position: relative;
+  left: -40%;
+}
+
+.p2-inf{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Mukta', sans-serif;
+}
+/* Info-end */
+
+/* IMG-start */
+  .pd{
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    height: 700px;
+    top: -30px;
+  }
+
+  h3{
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+  }
+  .img-pd{
+    width: 20%;
+    border-radius: 20%;
+    transition: 700ms;
+  }
+  .img-pd:hover{
+    width: 30%;
+    border-radius: 2%;
+    }
+/* IMG-end */
+
+/* Video-start*/
+.vid{
+  position: relative;
+  top: -30px;
+  background-color: white;
+  border-top: 20px solid  white;
+  border-bottom: 20px solid  white;
+}
+h4{
+  font-size: 25px;
+  margin-top: 30px;
+}
+/* Video-start */
+.cent-video{
+  width: 1000px;
+  height: 600px;
+}
+/* Video-end */
+
+/* Center-end */
+
+/* Footer-start */
+
+.footer{
+  background-color: rgb(16, 16, 30);
+  display: flex;
+  border-top: 100px solid rgb(16, 16, 30);
+  border-bottom: 100px solid rgb(16, 16, 30);
+  position: relative;
+  top: -15px;
+  outline:  30px solid rgb(16, 16, 30);
+}
+
+.kard{
+  border-right: 2px solid gray;
+  width: 700px;
+}
+
+.kart{
+  width: 600px;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+/* Register-start */
+.container{
+  height: 100vh;
+  width:30%;
+
+}
+
+.container .box{
+  position: absolute;
+  width: 350px;
+  top:23%;
+  left: 77%;
+  transform: translate(-50% , -50%);
+  background-color: #fff;
+  padding: 25px 25px 45px 25px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.h2-f{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.box .input_box{
+  width: 100%;
+}
+.box .input_box input[type="text"]{
+  width: 100%;
+  font-size: 15px;
+  margin: 16px 0px;
+  outline: none;
+  border-width: 0px 0px 2px 0px;
+  border-color: #cd7acd;
+}
+.box .input_box input[type="email"]{
+  width: 100%;
+  font-size: 15px;
+  margin: 16px 0px;
+  outline: none;
+  border-width: 0px 0px 2px 0px;
+  border-color: #cd7acd;
+}
+
+.box .input_box label{
+  position: relative;
+  left: 0;
+  top: -35px;
+  font-size: 15px;
+  color: #0000009e;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+.box .input_box input:focus + label,
+.box .input_box input:valid + label{
+  top: -50px;
+  font-size: 12px ;
+}
+
+.box .register_button{
+  width: 100%;
+  background: linear-gradient(45deg, #875cff , #ff66d7);
+  border: none;
+  padding: 8px 14px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.box .register_button:active{
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.box  .login_link{
+  font-size: 20px;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.box .login_link a{
+  color: #000;
+  text-decoration: none;
+}
+
+.box .login_link a:hover{
+  text-decoration: underline;
+}
+/* Register-end */
+
+/* Footer-end */
+
+.f-a{
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.f-a:hover{
+  text-decoration: underline;
+}
+
+.f-d{
+  background-color: #875cff;
+  height: 150%;
+  border-top: 30px solid #875cff;
+  position: relative;
+  top: -30;
+}
